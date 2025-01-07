@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <link rel="shortcut icon" href="img/menu.png" type="image/x-icon">
+    <style>
+        .header {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: gold;
+            background-color: black;
+            padding: 20px 0;
+            text-shadow: 5px 0 10px;
+        }
+
+        .nav-bar {
+            width: 100%;
+            font-size: x-large;
+            text-align: center;
+            background-color: gold;
+            border: 2px solid black;
+            text-shadow: 8px 0 15px;
+        }
+
+        .nav {
+            text-decoration: none;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        .nav-item:hover {
+            background-color: rgb(71, 66, 66);
+        }
+
+        .nav:hover {
+            color: gold;
+            background-color: rgb(71, 66, 66);
+        }
+
+        .menu {
+            width: 70%;
+            text-align: center;
+            background-color: gold;
+            border-collapse: collapse;
+            font-size: x-large;
+            text-shadow: 8px 0 15px;
+        }
+
+        .menu td {
+            width: 20%;
+            height: 50px;
+        }
+
+        .menu td:hover {
+            background-color: rgb(71, 66, 66);
+        }
+
+        .heads {
+            text-align: center;
+            color: gold;
+            background-color: black;
+            text-shadow: 10px 0 15px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            padding: 6px;
+        }
+
+        .list {
+            background-color: grey;
+            font-weight: bold;
+            padding: 40px 0;
+        }
+
+        .list table {
+            width: 75%;
+        }
+
+        .list td {
+            width: 35%;
+        }
+
+        .list img {
+            margin: 0 150px;
+            width: 42%;
+        }
+
+        .deals {
+            border-collapse: collapse;
+            background-color: gold;
+            text-shadow: 2px 0 10px;
+        }
+
+        .deals td {
+            padding: 5px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="img/rb_20132.png" alt="" width="20%">
+        <h1 class="heading">
+            WelCome to Online <br> Food & Grocery List
+        </h1>
+    </div>
+    <div>
+        <table class="nav-bar">
+            <tr>
+                <td class="nav-item"><a class="nav" href="index.html">HOME</a></td>
+                <td class="nav-item"><a class="nav" href="fruits.html">FRUITS</a></td>
+                <td class="nav-item"><a class="nav" href="groc.html">GROCERY</a></td>
+                <td class="nav-item"><a class="nav" href="about.html">ABOUT</a></td>
+                <td class="nav-item"><a class="nav" href="contact.html">CONTACT</a></td>
+            </tr>
+        </table>
+    </div>
+    <div class="heads">
+        <h1>Our grocery list</h1>
+    </div>
+    <center>
+        <div>
+            <table class="menu" border="1">
+                <tr>
+                    <td><a href="#swee" class="nav">Sweeteners</a></td>
+                    <td><a href="#sp" class="nav">Spices</a></td>
+                    <td><a href="#sc" class="nav">Sauces and Condiments</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#lp" class="nav">Lentils and Pulses</a></td>
+                    <td><a href="#co" class="nav">Cooking Oils</a></td>
+                    <td><a href="#ps" class="nav">Packaged Snacks</a></td>
+                </tr>
+            </table>
+        </div>
+    </center>
+    <div class="heads">
+        <h1 id="swee">Sweeteners</h1>
+    </div>
+    <div class="list">
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Sugar (Cheeni)</li>
+                            <li>Jaggery (Gur)</li>
+                            <li>Honey (Shehad)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div class="heads">
+        <h1 id="sp">spices</h1>
+    </div>
+    <div class="list">
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Turmeric Powder (Haldi)</li>
+                            <li>Red Chili Powder (Lal Mirch)</li>
+                            <li>Cumin Seeds (Jeera)</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div class="heads">
+        <h1 id="sc">Sauces and Condiments</h1>
+    </div>
+    <div class="list">
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Tomato Ketchup</li>
+                            <li>Soy Sauce</li>
+                            <li>Mayonnaise</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div class="heads">
+        <h1 id="lp">Lentils and Pulses</h1>
+    </div>
+    <div class="list">
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Red Lentils (Masoor Daal)</li>
+                            <li>Green Gram (Moong Daal)</li>
+                            <li>Chickpeas (Chana)</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <img src="img/l&p.jpg" alt="">
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div class="heads">
+        <h1 id="co">eCooking Oils</h1>
+    </div>
+    <div class="list">
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Mustard Oil (Sarson Ka Tel)</li>
+                            <li>Sunflower Oil</li>
+                            <li>Olive Oil</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <img src="img/oil.jpg" alt="">
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    <div class="heads">
+        <h1 id="ps">Packaged Snacks</h1>
+    </div>
+    <div class="list">
+        <center>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Chips</li>
+                            <li>Instant Noodles (e.g., Maggi)</li>
+                            <li>Biscuits</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </div>
+</body>
+
+</html>
